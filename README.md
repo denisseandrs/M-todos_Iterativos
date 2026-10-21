@@ -29,10 +29,3 @@ java Main
 javac -encoding UTF-8 *.java
 java -Dfile.encoding=UTF-8 Main
 ```
-
-## Salida esperada
-El programa imprime, por cada iteración, el vector X y el error, y al final un resumen:
-
-| Método | Iteraciones | Solución aproximada |
-| Jacobi | 16 | x ≈ y ≈ z ≈ 1 |
-| Gauss-Seidel | 6 | x ≈ y ≈ z ≈ 1 |
